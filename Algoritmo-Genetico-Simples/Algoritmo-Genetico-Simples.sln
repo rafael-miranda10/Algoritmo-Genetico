@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algoritmo-Genetico-Simples", "Algoritmo-Genetico-Simples\Algoritmo-Genetico-Simples.csproj", "{2AA6E17B-3959-474F-B25F-42F3D3E2E46B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AA6E17B-3959-474F-B25F-42F3D3E2E46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA6E17B-3959-474F-B25F-42F3D3E2E46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA6E17B-3959-474F-B25F-42F3D3E2E46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA6E17B-3959-474F-B25F-42F3D3E2E46B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBFB6CF3-54CB-43BB-B27E-69CA7BB872EF}
+	EndGlobalSection
+EndGlobal
