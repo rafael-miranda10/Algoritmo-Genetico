@@ -19,7 +19,7 @@ Para a solução do PCV, utilizamos AG da seguinte forma: primeiramente é gerad
 A etapa seguinte é selecionar 50% dos melhores estados e descartar os restantes, dentre estes selecionados como melhores é escolhido de forma aleatória dois estados (pais), de cada pai é selecionado de forma aleatória metade dos genes (cidades), para que seja realizado o cruzamento para gerar os estados filhos. No final, se necessário, ocorre a mutação, completando os genes dos filhos que faltaram, devido aos genes incompatíveis com a solução (ver Figura 3). Este processo se repete por 3.000 iterações e ao final deste processo é exibido o melhor estado, nesse caso a melhor rota.
 
 
-# Referencias
+# Referências
 Cunha, C. B.; Bonasser, U. O.; Abrahão, F. T. M. (2002) “Experimentos Computacionais com Heurísticas de Melhorias para o Problema do Caixeiro Viajante” htpp://sites.poli.usp.br/ptr/ptr/docentes/cbcunha/files/2-opt_TSP_Anpet_2002_CBC.pdf Março.
 
 Golbarg, M. C; Luna, H. P. R. (1999) “Otimização Combinatória e Programação Linear”. Rio de Janeiro: Editora Campus.
