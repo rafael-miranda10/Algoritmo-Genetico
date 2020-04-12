@@ -8,7 +8,7 @@ Sua origem é creditada a William Rowan Hamilton, que inventou um jogo, cujo obj
 O PCV pode ser definido como um problema de encontrar o roteiro de menor distância ou custo que passa por um conjunto de cidades, sendo cada cidade visitada exatamente uma única vez, regressando ao seu ponto de partida.
 Sob a ótica de otimização, o PCV pertence à categoria conhecida como NP-difícil ou NP-hard, o que significa que possui ordem de complexidade exponencial.
 
-#Algoritmo Genético
+# Algoritmo Genético
 
 Os algoritmos genéticos (AGs) têm como característica a otimização global, baseado nos mecanismos de seleção natural e da genética. Eles empregam uma estratégia de busca paralela e estruturada, embora aleatória, levando à busca de pontos de alta aptidão, ou seja, tenha valores relativamente baixos ou altos, pois eles exploram informações históricas para encontar novos pontos de busca onde são melhores resultados. O qual se dá por meio de processos iterativos (geração). Em cada iteração é realizada uma seleção que determina quais indivíduos conseguirão se reproduzir e gerar seus descendentes [Rezende 2005].
 Russel e Norvig (2004) explicam em linhas gerais que os AGs, são uma variante da Busca em Feixe Estocástica, porém os estados sucessores são gerados pela combinação de outros dois estados, em vez de serem gerados pela modificação de um único estado.
@@ -19,7 +19,7 @@ Para a solução do PCV, utilizamos AG da seguinte forma: primeiramente é gerad
 A etapa seguinte é selecionar 50% dos melhores estados e descartar os restantes, dentre estes selecionados como melhores é escolhido de forma aleatória dois estados (pais), de cada pai é selecionado de forma aleatória metade dos genes (cidades), para que seja realizado o cruzamento para gerar os estados filhos. No final, se necessário, ocorre a mutação, completando os genes dos filhos que faltaram, devido aos genes incompatíveis com a solução (ver Figura 3). Este processo se repete por 3.000 iterações e ao final deste processo é exibido o melhor estado, nesse caso a melhor rota.
 
 
-#Referencias
+# Referencias
 Cunha, C. B.; Bonasser, U. O.; Abrahão, F. T. M. (2002) “Experimentos Computacionais com Heurísticas de Melhorias para o Problema do Caixeiro Viajante” htpp://sites.poli.usp.br/ptr/ptr/docentes/cbcunha/files/2-opt_TSP_Anpet_2002_CBC.pdf Março.
 
 Golbarg, M. C; Luna, H. P. R. (1999) “Otimização Combinatória e Programação Linear”. Rio de Janeiro: Editora Campus.
