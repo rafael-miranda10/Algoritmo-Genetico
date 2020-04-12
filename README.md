@@ -1,6 +1,6 @@
 # Algoritmo-Genetico
 
-uma versão simples que será evoluido ao longo do tempo.
+uma versão simples que será evoluida ao longo do tempo.
 
 # Introdução
 O Problema do Caixeiro Viajante (PCV) é um dos problemas mais intensamente estudados em matemática computacional. Apesar de sua definição singela, o PCV representa até hoje um dos desafios da computação.
